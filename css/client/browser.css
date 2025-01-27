@@ -1,0 +1,85 @@
+/* Aero Theme - Windows Vista Inspired */
+
+.C9tvuqqEXGcrkcAtHrQ_R{
+    background: rgba(70, 130, 180, 0.7); /* Semi-transparent blue */
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.C9tvuqqEXGcrkcAtHrQ_R .title-area-children{
+    color: #FFFFFF; /* White for contrast */
+}
+
+._26Gmfe09NRsnF7eprTZYdY{
+    background: rgba(70, 130, 180, 0.8);
+    border-top: 1px solid rgba(255, 255, 255, 0.4); /* Subtle inset border */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    position: static;
+    border-radius: 5px;
+}
+
+._1d2NZ4Jt0wrdapfvDFhpVS ._1d2NZ4Jt0wrdapfvDFhpVS:hover{
+    background: rgba(255, 255, 255, 0.1); /* Subtle hover effect */
+}
+
+._1d2NZ4Jt0wrdapfvDFhpVS ._2UTNf-Ec4o5_3LPJtc2u7M{
+    color: #FFFFFF;
+}
+._1d2NZ4Jt0wrdapfvDFhpVS ._2UTNf-Ec4o5_3LPJtc2u7M:hover{
+    color: #FFD700; /* Gold hover */
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Tabs */
+
+aqvbkhC1ejt4s8QvWA-c5 > div:has(.TSlxCkeUMGwzmg21_WU8-:not(._1W4bbifjEN3KdqKEhpmies)){
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8-:not(._1W4bbifjEN3KdqKEhpmies){
+    padding: 3px 8px;
+    height: 27px;
+    background: rgba(70, 130, 180, 0.7);
+    border-radius: 5px;
+}
+
+aqvbkhC1ejt4s8QvWA-c5 > .TSlxCkeUMGwzmg21_WU8-{
+    max-height: 27px;
+    position: relative;
+    bottom: 0;
+}
+
+aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8-, 
+.aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8-._1W4bbifjEN3KdqKEhpmies, 
+.aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8-:hover{
+    border: none;
+    background: rgba(70, 130, 180, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: none;
+    box-sizing: border-box;
+    position: relative;
+}
+
+aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8-._1W4bbifjEN3KdqKEhpmies::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    background: rgba(70, 130, 180, 0.8);
+    height: 1px;
+    left: 0;
+    bottom: -1px;
+    z-index: 100;
+}
+
+aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8-:hover{
+    color: #FFD700;
+}
+
+aqvbkhC1ejt4s8QvWA-c5{
+    z-index: 100;
+    overflow: visible;
+    align-items: end;
+}

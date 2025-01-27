@@ -1,0 +1,320 @@
+/* General Frame =================================================================*/
+
+.client_chat_frame.ChatPopup body > .popup_chat_frame{
+    background-color: var(--LightBlueBG);
+    border: var(--GlassBorder);
+    padding: 0 5px;
+    z-index: 1000;
+}
+
+.titleBarContainer.ChatTabs{
+    background-color: var(--LightBlueBG);
+    border: none;
+    box-shadow: none;
+}
+
+.J8J3o5BtWdX2ZAOJB2AE6::before, .J8J3o5BtWdX2ZAOJB2AE6:last-of-type::after{
+    display: none;
+}
+
+.chatTabList>div, .HorizontalMiniSlider, .HorizontalMiniSliderScroll{
+    overflow: visible;
+}
+
+.client_chat_frame.ChatPopup .chatTitleBar{
+    border-bottom: var(--GlassBorder);
+}
+
+.X2iywwN7fcdh9zXpXVsrk{
+    padding: 5px 8px;
+    border: var(--GlassBorder);
+    border-radius: 8px;
+    transition: 0.3s;
+    background-color: var(--LightBlueBG) !important;
+    min-width: 0;
+    white-space: nowrap;
+    margin-top: 2px;
+    border-bottom: none;
+}
+
+.X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk{
+    background-color: var(--DarkBlueBG) !important;
+    border: var(--InsetBorder);
+    border-bottom: none;
+    min-height: 36px;
+    height: 100%;
+    margin-top: 0;
+    position: relative;
+}
+
+.chatWindow{
+    background: var(--DarkBlueBG);
+    backdrop-filter: blur(10px);
+}
+
+.chatWindow .chatHeader{
+    min-height: 1px;
+    transition: 0.3s;
+    background: transparent;
+}
+
+.inviteAnotherFriendButton{
+    background: var(--LightBlueBG);
+    border: var(--GlassBorder);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.inviteAnotherFriendButton:hover .invitePlus{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.inviteAnotherFriendButton .SVGIcon_Button{
+    fill: var(--White);
+    transition: 0.3s;
+}
+
+.inviteAnotherFriendButton:hover .SVGIcon_Button{
+    fill: var(--AccentBlue);
+}
+
+.inviteAnotherFriendButton .SVGIcon_Button line{
+    transition: 0.3s;
+    stroke: var(--White);
+}
+
+.inviteAnotherFriendButton:hover .SVGIcon_Button line{
+    stroke: var(--AccentBlue);
+}
+
+/* Bottom Bar =================================================================*/
+
+.chatWindow .chatEntry{
+    background: var(--LightBlueBG);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
+    padding-left: 0;
+}
+
+._3grea2u6WuuGLHj9gJFmzY{
+    background: var(--LightBlueBG);
+    box-shadow: none;
+    margin: 0;
+    padding: 2px 0;
+}
+
+._2gP0DqVyb1aEACymAe6if3{
+    background: var(--LightBlueBG);
+    box-shadow: none;
+    justify-content: center;
+}
+
+.pewyBQoFSgFWo_Ms99aRm{
+    box-shadow: none;
+    color: var(--White);
+    border: var(--InsetBorder);
+    background-color: var(--DarkBlueBG);
+    margin: 2px 4px 2px 0;
+    padding: 1px 4px;
+}
+
+._2gP0DqVyb1aEACymAe6if3 ._1IEiKQnjHpIv-m601y6hvP:not(.disabled), .VoiceToggle:not(.Disabled), .VoiceToggle:not(.Disabled):hover{
+    background: var(--LightBlueBG);
+    color: var(--White);
+    opacity: 1;
+}
+
+._2gP0DqVyb1aEACymAe6if3 ._1IEiKQnjHpIv-m601y6hvP, .VoiceToggle, .VoiceToggle.Disabled:hover{
+    background: var(--LightBlueBG);
+    border: var(--GlassBorder);
+    color: var(--DisabledText1);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.ChatMessageEntryVoice, .ChatMessageEntryVoice.Disabled{
+    border: none;
+    opacity: 1;
+    outline: none;
+    background: transparent;
+    box-shadow: none;
+    transition: 0.3s;
+    margin: 0;
+} 
+
+._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg, ._1IEiKQnjHpIv-m601y6hvP.K-lPMiafCuZRqjfXykujt{
+    background: var(--LightBlueBG) !important;
+    border: var(--GlassBorder);
+    margin: 0 2px;
+    color: var(--White);
+}
+
+._1IEiKQnjHpIv-m601y6hvP .SVGIcon_Submit, ._1IEiKQnjHpIv-m601y6hvP .SVGIcon_Submit path, .friendsui-container .SVGIcon_Button.SVGIcon_VoiceRoom, .VoiceToggleIconCtn{
+    fill: currentColor !important;
+    color: inherit;
+}
+
+._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg svg, ._1IEiKQnjHpIv-m601y6hvP.K-lPMiafCuZRqjfXykujt svg{
+    color: var(--White);
+}
+
+._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg:hover svg, ._1IEiKQnjHpIv-m601y6hvP.K-lPMiafCuZRqjfXykujt:hover svg, ._2gP0DqVyb1aEACymAe6if3 ._1IEiKQnjHpIv-m601y6hvP:not(.disabled):hover svg, .VoiceToggle:not(.Disabled):hover svg{
+    color: var(--AccentBlue) !important;
+}
+
+/* Chat Content =================================================================*/
+
+.chatHistoryScroll{
+    border: var(--InsetBorder);
+    border-top: none;
+} 
+
+.speakerTimeStamp, .msg.timeDivision{
+    color: var(--DimText);
+}
+
+.timeDivision .preHorizDivider, .timeDivision .horizDivider{
+    background-color: var(--DimText);
+}
+
+.timeDivision.time_passes{
+    padding-top: 12px;
+}
+.timeDivision.time_passes .preHorizDivider, .timeDivision.time_passes .horizDivider{
+    border: 1px var(--AccentBlue) solid;
+    margin: 0;
+}
+.timeDivision.time_passes::before{
+    content: "New Messages";
+    margin: auto;
+    color: var(--AccentBlue);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+._3kEgIPZCMTtXeWWzzRLo4K:hover {
+    background: transparent;
+}
+
+.chatWindow .speaker .speakerName{
+    padding-left: 2px;
+}
+
+._2EAaUMq8cHVzfuKK6YQnpR, .isCurrentUser ._2EAaUMq8cHVzfuKK6YQnpR{
+    color: var(--White);
+}
+
+._1siGy9uIqY5Aairhl31PTI, .isCurrentUser ._1siGy9uIqY5Aairhl31PTI{
+    color: var(--AccentBlue);
+}
+
+.MultiUserChat .isCurrentUser .msgText{
+    color: var(--White);
+}
+
+._3kEgIPZCMTtXeWWzzRLo4K ._3nIwHFIw4nSXC_DUrzO_a6{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+._3kEgIPZCMTtXeWWzzRLo4K ._3nIwHFIw4nSXC_DUrzO_a6 > .x623f5XW8KKftpfX7C_tg{
+    border: var(--GlassBorder);
+    background: var(--LightBlueBG);
+    stroke: var(--White);
+    color: var(--White);
+}
+
+._3kEgIPZCMTtXeWWzzRLo4K ._3nIwHFIw4nSXC_DUrzO_a6 > .x623f5XW8KKftpfX7C_tg:hover{
+    stroke: var(--AccentBlue);
+    color: var(--AccentBlue);
+}
+
+/* Emoji Selector ================================================================= */
+._3ff2fpyHtj6qUHH3pPpjyw{
+    text-transform: none;
+    color: var(--White);  
+} 
+
+._1c-qebyqfejBT8hBvbUY7p{
+    background-color: var(--DarkBlueBG);
+    border: var(--InsetBorder);
+}
+
+.vzSOldNc6qJmpXlLVoi8i ._18mhxKaUFfaWL6pJANncsS, .vzSOldNc6qJmpXlLVoi8i ._18mhxKaUFfaWL6pJANncsS:hover, .vzSOldNc6qJmpXlLVoi8i ._18mhxKaUFfaWL6pJANncsS:focus{
+    background: var(--DarkBlueBG) !important;
+    border: var(--InsetBorder);
+    color: var(--White);
+    box-shadow: none;
+    border-radius: 8px;
+}
+
+._3DjoXcx0aMRDIV1BxLzlzU{
+    border: none;
+}
+
+._1F8BhKKWf_XhG9QsmY_4lp._2bg1wWoNj7Bs0BSiao9e9x, ._1F8BhKKWf_XhG9QsmY_4lp:active{
+    background-color: var(--DarkBlueBG);
+    border: var(--InsetBorder);
+    color: var(--AccentBlue);
+    margin-bottom: 4px;
+}
+
+._1F8BhKKWf_XhG9QsmY_4lp:not(._2bg1wWoNj7Bs0BSiao9e9x){
+    background-color: var(--LightBlueBG);
+    border: var(--GlassBorder);
+    color: var(--White);
+    margin-bottom: 4px;
+}
+
+._1F8BhKKWf_XhG9QsmY_4lp:not(._2bg1wWoNj7Bs0BSiao9e9x):hover{
+    color: var(--AccentBlue);
+}
+
+._1F8BhKKWf_XhG9QsmY_4lp ._2MluNdiOiHT-XKPQfFiIax{
+    color: inherit !important;
+    background-color: transparent !important;
+    opacity: 1;
+    width: 28px;
+    height: 28px;
+    padding: 2px;
+}
+
+._1F8BhKKWf_XhG9QsmY_4lp ._2MluNdiOiHT-XKPQfFiIax svg{
+    fill: currentColor;
+}
+
+._2tnPHy-nozONfkJPqkZciP ._3zgndNTKG2ncwQVa-HXHBQ:hover, ._2tnPHy-nozONfkJPqkZciP ._3zgndNTKG2ncwQVa-HXHBQ._3GiAck-LzSOtfHEzFFPIIf{
+    background-color: transparent;
+}
+
+._2tnPHy-nozONfkJPqkZciP ._3zgndNTKG2ncwQVa-HXHBQ:hover img, ._2tnPHy-nozONfkJPqkZciP ._3zgndNTKG2ncwQVa-HXHBQ._3GiAck-LzSOtfHEzFFPIIf img{
+    filter: 
+    drop-shadow(1px 1px 0px var(--AccentBlue)) 
+    drop-shadow(-1px 1px 0px var(--AccentBlue)) 
+    drop-shadow(1px -1px 0px var(--AccentBlue)) 
+    drop-shadow(-1px -1px 0px var(--AccentBlue));
+}
+
+._1GtsZWvAAnnuk-EjFP3su2{
+    background: var(--LightBlueBG);
+    border: var(--GlassBorder);
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+/* Chatroom =================================================================*/
+/* Group chats are styled minimally to keep focus on individual chats */
+.chatRoomGroupHeader{
+    border: none;
+    background-color: var(--LightBlueBG);
+}
+
+.chatRoomGroupNavColumn, .MemberListColumn, .chatRoomMembers{
+    box-shadow: none;
+    background: var(--LightBlueBG);
+    border: none;
+}
+
+/* TODO: Find a way to differentiate groups and individual chats */

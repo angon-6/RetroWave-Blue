@@ -1,0 +1,124 @@
+/* Variables CSS Aero Style */
+:root {
+    --AeroBlueLight: rgba(173, 216, 230, 0.8); /* Couleur bleu clair avec transparence */
+    --AeroBlueDark: rgba(70, 130, 180, 0.9);  /* Bleu acier avec transparence */
+    --AeroBorder: rgba(255, 255, 255, 0.5);   /* Bordure blanche translucide */
+    --AeroHighlight: rgba(173, 216, 230, 1);  /* Bleu clair plus intense */
+    --AeroShadow: rgba(0, 0, 0, 0.2);         /* Ombre subtile */
+    --AeroText: #FFFFFF;                      /* Texte blanc pur */
+}
+
+._9sPoVBFyE_vE87mnZJ5aB {
+    border: 1px solid var(--AeroBorder);
+    box-shadow: 0px 4px 6px var(--AeroShadow);
+    border-radius: 8px;
+    background: var(--AeroBlueLight);
+}
+
+/* Home Button & Collections Button ======================================================================= */
+._3pSPluBgf0NeR1kkCLWMhR {
+    background: linear-gradient(135deg, var(--AeroBlueLight), var(--AeroBlueDark));
+    border: 1px solid var(--AeroBorder);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.eNLOx4LVceeMwRvTVWh3._3pSPluBgf0NeR1kkCLWMhR {
+    background: var(--AeroBlueDark);
+    border: 1px solid var(--AeroHighlight);
+}
+
+._3pSPluBgf0NeR1kkCLWMhR:hover {
+    background: var(--AeroHighlight);
+    box-shadow: 0 0 10px var(--AeroHighlight);
+}
+
+/* Text Styling */
+[class^="_3O48LaKWcabKx07xdrt1TH"] {
+    color: var(--AeroText);
+    font-weight: 500;
+    text-shadow: 0 1px 2px var(--AeroShadow);
+}
+
+/* Games Software Dropdown & Toggles ======================================================================= */
+[class^="_1ZS_xta5HMXzR8JgxDH6n7"] [class^="_2PF_m-I5yte3WnQhpcz8RC"] {
+    background: var(--AeroBlueLight);
+    border: 1px solid var(--AeroBorder);
+    border-radius: 6px;
+    text-transform: none;
+    box-shadow: inset 0 1px 2px var(--AeroShadow);
+}
+
+[class^="_1ZS_xta5HMXzR8JgxDH6n7"] [class^="_2PF_m-I5yte3WnQhpcz8RC"]:hover {
+    background: var(--AeroHighlight);
+}
+
+[class^="_1ZS_xta5HMXzR8JgxDH6n7"] {
+    background: var(--AeroBlueDark);
+    padding: 4px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--AeroShadow);
+}
+
+/* Game Search Bar ======================================================================= */
+[class^="_20QAC4WMXm8qFE8waUT5oo"] {
+    padding: 8px;
+    background: var(--AeroBlueDark);
+    margin: 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px var(--AeroShadow);
+}
+
+[class^="_20QAC4WMXm8qFE8waUT5oo"] .SearchInput {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid var(--AeroBorder);
+    border-radius: 6px;
+    color: var(--AeroText);
+    height: 34px;
+    padding: 4px 8px;
+}
+
+[class^="_20QAC4WMXm8qFE8waUT5oo"] .SearchInput:focus {
+    outline: none;
+    border-color: var(--AeroHighlight);
+    box-shadow: 0 0 6px var(--AeroHighlight);
+}
+
+/* Advanced Search Menu */
+[class^="Woh0kBQCmatzC1daBX9i6"] {
+    background: linear-gradient(135deg, var(--AeroBlueLight), var(--AeroBlueDark));
+    box-shadow: 0 2px 4px var(--AeroShadow);
+    border: 1px solid var(--AeroBorder);
+    border-radius: 6px;
+}
+
+/* Categories ======================================================================= */
+[class^="_2sYIghGVXJr6tsQVvcryy8"], [class^="_2sYIghGVXJr6tsQVvcryy8"]:hover {
+    background: transparent;
+    border: none;
+    color: var(--AeroText);
+    text-shadow: 0 1px 2px var(--AeroShadow);
+}
+
+[class^="_2sYIghGVXJr6tsQVvcryy8"] svg {
+    stroke: var(--AeroText);
+}
+
+[class^="_2sYIghGVXJr6tsQVvcryy8"]._1dcGFHhye9BeEOg7CkFNQG {
+    border: 1px solid var(--AeroBorder);
+    background: var(--AeroBlueDark);
+}
+
+/* Right Click Menu */
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl {
+    background: var(--AeroBlueLight);
+    border: 1px solid var(--AeroBorder);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px var(--AeroShadow);
+}
+
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl:hover {
+    background: var(--AeroBlueDark);
+    box-shadow: 0 0 10px var(--AeroHighlight);
+    color: var(--AeroText);
+}

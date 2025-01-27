@@ -1,0 +1,129 @@
+/* Navbar Aero Theme - Windows Vista Inspired */
+
+._2CmrnGY-Amtd83ScJkFvx2 {
+    display: none;
+}
+
+._3Z7VQ1IMk4E3HsHvrkLNgo {
+    background-color: var(--AeroBlue) !important;
+    flex-direction: row !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3), inset 0px 1px 4px rgba(255, 255, 255, 0.5) !important;
+    border: 1px solid var(--AeroBorderBlue);
+    border-radius: 8px;
+    padding-bottom: 3px;
+    position: relative;
+}
+
+._3Z7VQ1IMk4E3HsHvrkLNgo > div {
+    padding: 0;
+    margin: 0;
+}
+
+/* RootMenu Buttons ======================================================================= */
+._2UyOBeiSdBayaFdRa39N2O {
+    color: var(--AeroOffWhite);
+    padding: 0% 6px;
+    height: min-content;
+}
+
+/* Navigation Buttons ======================================================================= */
+
+._19axKcqYRuaJ8vdYKYmtTQ {
+    background-color: var(--AeroBlueGradient) !important;
+    border: 1px solid var(--AeroBorderBlue);
+    border-radius: 4px;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    padding: 6px 10px !important;
+    font-size: 13px !important;
+    text-transform: none;
+    color: var(--AeroOffWhite) !important;
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.3), 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+._19axKcqYRuaJ8vdYKYmtTQ:hover {
+    background-color: var(--AeroHighlightBlue) !important;
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.5), 0px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+._2Lu3d-5qLmW4i19ysTt2jT._1gqEjB5QsKT_NftD1dEsdZ ._19axKcqYRuaJ8vdYKYmtTQ {
+    color: var(--AeroGold) !important;
+    border: 1px solid var(--AeroGold);
+}
+
+._2Lu3d-5qLmW4i19ysTt2jT._1gqEjB5QsKT_NftD1dEsdZ ._19axKcqYRuaJ8vdYKYmtTQ::after {
+    display: none !important;
+}
+
+/* Dropdowns ======================================================================= */
+._2jXHP0742MyApMUVUM8IFn {
+    background-color: var(--AeroBlueGradient);
+    border-radius: 6px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+._2jXHP0742MyApMUVUM8IFn:hover {
+    background-color: var(--AeroHighlightBlue) !important;
+}
+
+/* Account & News & More ======================================================================= */
+._3cykd-VfN_xBxf3Qxriccm {
+    position: absolute;
+    right: 0;
+    align-items: start;
+}
+
+._3LKQ3S_yqrebeNLF6aeiog,
+._3lRfTo8Wo3phXfE1DvK6QW,
+._5wILZhsLODVwGfcJ0hKmJ,
+.RtSv39ZoBOySnb8XQ5hJf,
+.Utdt7JrpIm5JlpQmqyj1v,
+.Utdt7JrpIm5JlpQmqyj1v.Playing {
+    background-color: var(--AeroBlueGradient) !important;
+    border: 1px solid var(--AeroBorderBlue);
+    border-radius: 50%;
+    padding: 6px;
+    margin: 0 6px 4px !important;
+    position: relative;
+    width: 20px !important;
+    height: 20px !important;
+    color: var(--AeroOffWhite) !important;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.RtSv39ZoBOySnb8XQ5hJf svg {
+    color: inherit !important;
+}
+
+._3LKQ3S_yqrebeNLF6aeiog:hover,
+._3lRfTo8Wo3phXfE1DvK6QW:hover,
+._5wILZhsLODVwGfcJ0hKmJ:hover,
+.RtSv39ZoBOySnb8XQ5hJf:hover {
+    background-color: var(--AeroHighlightBlue) !important;
+    color: #fff !important;
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.4), 0px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd,
+.RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:hover {
+    color: var(--AeroGold) !important;
+    border: 1px solid var(--AeroGold);
+}
+
+/* Notifications Mailbox =================================================================*/
+
+._1UgM1Pm8SbTWX7_2f-crGt {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    color: var(--AeroOffWhite);
+    padding: 2px 2px 4px !important;
+}
+
+/* Browser container =================================================================*/
+
+._1bGewp3tfzqAF6fVTFFUOz ._29p1jfvZ-VdlXK24_7UGsK {
+    background: var(--AeroDarkBlue);
+    outline: 1px inset var(--AeroBorderHighlight);
+}

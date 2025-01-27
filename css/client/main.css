@@ -1,0 +1,138 @@
+/* Mise à jour pour un style Aero Windows Vista basé sur le bleu */
+[class^="_3mz8wQ6Q44B8P7pzPP4Iyw"]{
+    border: var(--Outset);
+    padding: 0px 15px;
+    background-color: rgba(0, 120, 215, 0.6); /* Bleu translucide */
+    backdrop-filter: blur(8px); /* Effet de flou pour Aero */
+    color: var(--OffWhite);
+}
+
+[class^="_1rDh5rXSFZJOqCa4UpnI4z"]{
+    padding: 5px !important;
+    background-color: rgba(0, 120, 215, 0.6);
+    backdrop-filter: blur(8px);
+    border: var(--Outset);
+    margin-bottom: 15px;
+    color: var(--OffWhite);
+}
+
+[class^="_1ENHEsrSLcTRtPQFl1F-wL"]{
+    border: none !important;
+}
+
+._29b2a87G5A5NZeYh5Kgvea{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 120, 215, 0.3);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: var(--Outset);
+    color: var(--OffWhite);
+}
+
+input[type="radio"]{
+    appearance: none;
+    margin: 0;
+    color: var(--Maize);
+    height: 13px;
+    width: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 120, 215, 0.6);
+    border-radius: 50%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+input[type="radio"]::before{
+    content: "";
+    height: 7px;
+    width: 7px;
+    margin: 2px 0 0 2px;
+    display: block;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked::before{
+    opacity: 1;
+}
+
+input[type="radio"]:focus{
+    outline: transparent;
+}
+
+.DialogBodyText{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.DialogCheckbox{
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    border-radius: 4px;
+    background: rgba(0, 120, 215, 0.6) !important;
+    backdrop-filter: blur(8px);
+    color: var(--OffWhite);
+}
+
+.DialogCheckbox.Active{
+    background: rgba(0, 90, 180, 0.8) !important;
+}
+
+.DialogButton{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3) !important;
+    background: rgba(0, 120, 215, 0.6) !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    color: rgba(255, 255, 255, 0.9);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.DialogButton:hover{
+    background: rgba(0, 120, 215, 0.8) !important;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4) !important;
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.DialogButton:active{
+    border: 1px solid rgba(255, 255, 255, 0.7) !important;
+    background: rgba(0, 90, 180, 0.9) !important;
+}
+
+.DialogInput, .DialogTextInputBase{
+    background-color: rgba(0, 90, 180, 0.8) !important;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3) !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.DialogInput:hover, .DialogInput:focus{
+    background-color: rgba(0, 90, 180, 0.9) !important;
+}
+
+._DialogInputContainer{
+    background: rgba(0, 120, 215, 0.6) !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.DesktopUI .window-controls > div, .ModalPosition_Dismiss .closeButton{
+    background: rgba(0, 120, 215, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    height: 20px;
+    width: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.DesktopUI .window-controls > div:hover, .ModalPosition_Dismiss .closeButton:hover{
+    background: rgba(0, 120, 215, 0.8) !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4) !important;
+}
+
+.DesktopUI .window-controls > div:active, .ModalPosition_Dismiss .closeButton:active{
+    background: rgba(0, 90, 180, 0.9) !important;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}

@@ -1,0 +1,147 @@
+/* Draggable divider ===================================================================== */
+[class^="_276E6ijBpjMA2_iTxNhhjc"] {
+    width: 8px;
+    min-width: 8px;
+    background-color: transparent !important;
+}
+
+[class^="_276E6ijBpjMA2_iTxNhhjc"]:hover {
+    background-color: transparent !important;
+}
+
+/* General Background and stuff ===================================================================== */
+._27RcNu8aXKBpYkHcNNrt-X {
+    background-color: rgba(70, 130, 180, 0.9); /* Light Steel Blue */
+    backdrop-filter: blur(10px) saturate(1.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+[class^="_3BFcmjAaMyP6GTPwc0VyWi"] {
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    box-shadow: 0 0 10px rgba(70, 130, 180, 0.7);
+}
+
+[class^="qX4kNo6O0M-mYntdErKSJ"] {
+    color: rgba(255, 255, 255, 0.9) !important; /* Off-White */
+}
+
+._2l416KfEtI4CL0mCUEmOBw,
+._2Dd4T78PcCTUVgOtDGFY5j,
+._2gSXCB6PbOlMxslr8hm6dm {
+    background: rgba(70, 130, 180, 0.9) !important;
+    background-image: none !important;
+}
+
+._1Qa-Aq8WFiF9584yU_1xuC,
+._1bCHNUX_0WHTI1fch_8K5R {
+    display: none !important;
+}
+
+.online [class^="r62qzcdJQ0qezZglOtiUX"] {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+ingame [class^="r62qzcdJQ0qezZglOtiUX"] {
+    color: rgba(173, 216, 230, 1); /* Light Blue */
+}
+
+._1k82NiWym4STegDGxRBHz2 {
+    color: rgba(220, 220, 220, 0.8) !important; /* Dim List Text */
+}
+
+._3EzTyjJx_tZUEIHygPwAeC.Dim.online ._1DArl3Gs9lXPcZdmCIlDJa,
+._3EzTyjJx_tZUEIHygPwAeC.online ._1DArl3Gs9lXPcZdmCIlDJa {
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: none;
+}
+
+._3EzTyjJx_tZUEIHygPwAeC.Dim.in-game ._1DArl3Gs9lXPcZdmCIlDJa,
+._3EzTyjJx_tZUEIHygPwAeC.in-game ._1DArl3Gs9lXPcZdmCIlDJa {
+    color: rgba(173, 216, 230, 1);
+    text-shadow: none;
+}
+
+/* Button Styles ===================================================================== */
+._2sNDjgK9EWiPLdNGkjun-w, ._1EC1xjjUGqI7fqX6PVzJA3 {
+    background: rgba(100, 149, 237, 0.8) !important; /* Cornflower Blue */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.9) !important;
+    padding: 3px 6px;
+}
+
+._2sNDjgK9EWiPLdNGkjun-w:active {
+    background: rgba(70, 130, 180, 0.9) !important;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* Modal and Popup Windows ===================================================================== */
+.DeckVerifiedModalDialogClient .DialogContent {
+    background: rgba(70, 130, 180, 0.95) !important;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(70, 130, 180, 0.6);
+}
+
+._3qDWQGB0rtwM3qpXTb11Q-, ._2jPMy2QZr8bWi6yrk5ZzHA {
+    background-color: rgba(70, 130, 180, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+._3qDWQGB0rtwM3qpXTb11Q-:hover {
+    background-color: rgba(100, 149, 237, 0.9);
+    color: rgba(173, 216, 230, 1);
+    transition: none;
+}
+
+._3qDWQGB0rtwM3qpXTb11Q- svg,
+._3qDWQGB0rtwM3qpXTb11Q- .SVGIcon_Button path,
+._3qDWQGB0rtwM3qpXTb11Q- .zvLq1GUCH3yLuqv_TXBJ1 {
+    fill: currentColor !important;
+    color: inherit !important;
+    transition: none;
+}
+
+/* Inputs and Forms ===================================================================== */
+._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X {
+    background: rgba(100, 149, 237, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X:focus {
+    background: rgba(70, 130, 180, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 10px rgba(70, 130, 180, 0.7);
+}
+
+/* Final Touches ===================================================================== */
+body {
+    background: radial-gradient(circle, rgba(70, 130, 180, 1) 20%, rgba(0, 0, 139, 1) 100%);
+    color: rgba(255, 255, 255, 0.9);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    background: rgba(70, 130, 180, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 5px 10px;
+}
+
+button:hover, input:hover, select:hover, textarea:hover {
+    background: rgba(100, 149, 237, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+button:active, input:active, select:active, textarea:active {
+    background: rgba(70, 130, 180, 1);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}

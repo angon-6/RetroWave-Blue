@@ -1,0 +1,69 @@
+/* Style Aero de Windows Vista avec une palette basée sur le bleu */
+
+:root {
+    --GreenBG: rgba(173, 216, 230, 0.8); /* Bleu clair avec effet transparent */
+    --DarkGreenBG: rgba(70, 130, 180, 0.8); /* Bleu acier foncé transparent */
+    --Maize: #FFFFFF; /* Blanc pur pour contraste */
+    --OffWhite: #E0EFFF; /* Blanc légèrement bleuté */
+    --MaizeBG: rgba(135, 206, 250, 0.6); /* Bleu ciel transparent */
+    --Outset: 1px solid rgba(255, 255, 255, 0.5); /* Bordure blanche semi-transparente */
+    --Inset: 1px solid rgba(0, 0, 0, 0.2); /* Bordure noire semi-transparente */
+}
+
+._3vCzSrrXZzZjVJFZNg9SGu {
+    background: transparent;
+    box-shadow: none !important;
+    padding: 0;
+}
+
+._1TdaAqMFadi0UTqilrkelR, ._2foCkpRXhqq0UGVE50BWqj, .ip-YZhijAMZcuRoXBGiye {
+    background-color: var(--GreenBG);
+    border: var(--Outset);
+    padding: 3px;
+    gap: 0;
+    border-radius: 10px; /* Arrondis pour effet Aero */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre subtile */
+}
+
+._2foCkpRXhqq0UGVE50BWqj ._3OhUxFVlQYr9W5ThxstR8k, ._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k, .ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y {
+    color: var(--OffWhite) !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Effet de lueur subtile */
+}
+
+._2foCkpRXhqq0UGVE50BWqj ._3OhUxFVlQYr9W5ThxstR8k:hover, ._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k:hover, .ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y:hover {
+    color: var(--Maize) !important;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.8); /* Accentuation de l'effet lumineux */
+}
+
+._1TdaAqMFadi0UTqilrkelR:active, ._2foCkpRXhqq0UGVE50BWqj:active, .ip-YZhijAMZcuRoXBGiye:active {
+    background-color: var(--DarkGreenBG);
+    border: var(--Inset);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5); /* Effet pressé */
+}
+
+._2foCkpRXhqq0UGVE50BWqj ._1KrJ3sFAqPBN9mfpaNTU5F, ._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F, .ip-YZhijAMZcuRoXBGiye ._1KrJ3sFAqPBN9mfpaNTU5F {
+    display: none !important;
+}
+
+._2VtAqT03BpBsVdmxwptn9D ._2_FomluqqgQ2Hx8ON3AVep .yZ55NhARZGx1Awk2qs8pS {
+    --color-progress-bar-foreground: var(--Maize) !important;
+    border: var(--Inset);
+    background-color: var(--DarkGreenBG);
+    border-radius: 5px; /* Arrondi des barres de progression */
+}
+
+._1sCy-pm412Smb0wJx0W-4 {
+    color: var(--Maize) !important;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* Lueur subtile */
+}
+
+/* TODO: Remove when steam family comes out */
+._3GaHEQJW9B1Rlt0Ddz3E8D {
+    width: max-content;
+    background-color: var(--MaizeBG);
+    right: 23px;
+    bottom: 71px;
+    position: fixed;
+    border-radius: 8px; /* Arrondi pour le style Aero */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre flottante */
+}

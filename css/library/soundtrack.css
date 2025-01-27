@@ -1,0 +1,90 @@
+/* AERO Theme: Windows Vista-inspired CSS with a blue-based palette */
+
+._23zCI_59RJTWRvY-_YCFb9{
+    background: rgba(30, 144, 255, 0.8); /* Translucent DodgerBlue */
+    backdrop-filter: blur(10px);
+}
+
+._26bNl_GrQVxUbLj1KjGJQN ._3JZ9bzoPhr9prUKdYatsP1{
+    display: none;
+}
+
+._1R0eEV6Mxu9G0FnF8g9vNI{
+    border: 1px solid rgba(135, 206, 250, 0.8); /* LightSkyBlue border */
+    filter: drop-shadow(0 0 10px rgba(70, 130, 180, 0.5)); /* SteelBlue glow */
+    max-width: 500px;
+    box-sizing: border-box;
+    background: rgba(240, 248, 255, 0.6); /* AliceBlue background */
+    backdrop-filter: blur(10px);
+}
+
+._1NbxLEcEzNVpZ0TY7ONgs1{
+    box-sizing: border-box;
+    background: rgba(0, 191, 255, 0.7); /* DeepSkyBlue */
+    border: 1px solid rgba(135, 206, 250, 0.8);
+    width: 100%;
+    padding: 4px 4px 0;
+    backdrop-filter: blur(10px);
+}
+
+._2pcGGedg89N3zrMcv-eZWQ, .J_w15AskfksVz-60nWbt1, .J_w15AskfksVz-60nWbt1, ._3C_pTK3Ed-6j5P02srRHtc{
+    text-transform: none;
+    color: rgba(255, 255, 255, 0.9) !important; /* Off-white text */
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY ._4f23lVS-5qWUNLy1QTm12 ._2bTdSZveC7h_neiBX4DAsa, ._1c7FWVusLDkD_Lv6ZB0uTY ._4f23lVS-5qWUNLy1QTm12 .oW5xvEBArmBDwEZHO3Xip{
+    color: rgba(255, 255, 255, 0.8); /* Slightly translucent white */
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .LeftColumn.WithControls{
+    overflow-x: hidden;
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .LeftColumn .PlayMusic{
+    box-sizing: border-box;
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn{
+    border: 1px solid rgba(70, 130, 180, 0.7);
+    box-shadow: 0 4px 15px rgba(70, 130, 180, 0.4);
+    background: rgba(30, 144, 255, 0.5);
+    backdrop-filter: blur(15px);
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn .TrackListContainer{
+    border-radius: 8px;
+    background-color: rgba(0, 191, 255, 0.5); /* Semi-transparent DeepSkyBlue */
+    backdrop-filter: blur(10px);
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn .TrackListContainer .Disc, ._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn .TrackListContainer .TrackListing.Playing, ._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn .TrackListContainer .TrackListing:hover{
+    border: 1px solid rgba(135, 206, 250, 0.8);
+    background: rgba(173, 216, 230, 0.6); /* LightBlue background */
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn .TrackListContainer .TrackListing .TrackLength, ._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn .TrackListContainer .TrackListing .TrackNumber{
+    color: rgba(240, 248, 255, 0.9); /* AliceBlue text */
+}
+
+/* Play section =================================================================*/
+._5ZEYSTRBHDswDtriduXW0{
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+}
+
+button._1iFnR7cGRa1kepep433pGx.gpfocus, button._1iFnR7cGRa1kepep433pGx:active{
+    background: rgba(30, 144, 255, 0.8) !important;
+    border: 1px solid rgba(135, 206, 250, 0.8);
+}
+
+._3UIUDh2q1nXDaHbWOLCILH, ._3o137DBNF03ytbLBl2jPri:hover ._3UIUDh2q1nXDaHbWOLCILH{
+    border-radius: 8px;
+    background: rgba(30, 144, 255, 0.7);
+    border: 1px solid rgba(70, 130, 180, 0.8);
+    --left-track-color: rgba(173, 216, 230, 0.8);
+}
+
+._3UIUDh2q1nXDaHbWOLCILH::before{
+    border-radius: 8px;
+}

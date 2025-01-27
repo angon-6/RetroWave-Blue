@@ -1,0 +1,44 @@
+/* Aero Vista Theme: Collection CSS */
+
+._2sNr7PFYcJZWNkEMCDVVPR {
+    background: rgba(70, 130, 180, 0.7); /* Soft blue glass-like */
+    backdrop-filter: blur(8px); /* Glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle highlight border */
+}
+
+._2q70uOe6xM3-c5XIVfBLe6 ._2rqTSCLSSEycEiuCS_OkpX ._2oJt3qYLAqr6xMjnpmBFLN {
+    text-transform: none;
+    color: rgba(240, 248, 255, 0.9); /* Light blue text */
+    font-weight: 400;
+}
+
+._2q70uOe6xM3-c5XIVfBLe6 ._2rqTSCLSSEycEiuCS_OkpX ._3Xgxj6vaGiKSEal2iaSrYl {
+    color: rgba(173, 216, 230, 0.8); /* Soft blue label color */
+}
+
+._2q70uOe6xM3-c5XIVfBLe6 ._2rqTSCLSSEycEiuCS_OkpX ._1grg9gmk1v5ri4iOuDymaz {
+    background: rgba(135, 206, 235, 0.7); /* Sky blue background */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+.appgrid_CollectionOptionsRightJustified_3t1pL ._38IOu1p2yIVM7uP-dMWew6 {
+    color: rgba(224, 255, 255, 0.9); /* Pale blue text */
+}
+
+._6zcMsloKVA3_bv5nQ0OQE {
+    display: none;
+}
+
+._3bWISeqP3H2j6YJnFwVEwu {
+    box-shadow: none;
+    background: rgba(70, 130, 180, 0.7); /* Matching glass-like background */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+._3bWISeqP3H2j6YJnFwVEwu::after {
+    background: rgba(135, 206, 250, 0.7); /* Light blue after element */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3); /* Outset effect */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
